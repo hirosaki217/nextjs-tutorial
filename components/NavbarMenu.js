@@ -12,19 +12,16 @@ const NavbarMenu = () => {
                 <Nav.Link as={Link} href="/posts">
                     Posts
                 </Nav.Link>
+                <Nav.Link as={Link} href="/jokes/random">
+                    Jokes
+                </Nav.Link>
+
+                <Nav.Link as={Link} href="/books">
+                    Books
+                </Nav.Link>
                 <Nav.Link as={Link} href="/about">
                     About
                 </Nav.Link>
-
-                {/* <Link href="/" passHref>
-                    <Nav.Link as="a">Home</Nav.Link>
-                </Link>
-                <Link href="/posts" passHref>
-                    <Nav.Link as="a">Posts</Nav.Link>
-                </Link>
-                <Link href="/about" passHref>
-                    <Nav.Link as="a">About</Nav.Link>
-                </Link> */}
             </Nav>
         </Navbar>
     );
